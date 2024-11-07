@@ -3,9 +3,9 @@
 def calculate_discount_price(price, discount_percent):
        
         discount_price=price *discount_percent
-        original_price=price - discount_price
+        final_price=price - discount_price
         
-        print(original_price)
+        print(final_price)
     
 
 calculate_discount_price(20000, 0.005)
